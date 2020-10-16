@@ -1,1 +1,1 @@
-window.setTimeout(close, 5000)
+setTimeout(function(){close() }, 3000);

@@ -1,1 +1,1 @@
-setTimeout(function(){close() }, 3000);
+setTimeout(function(){close() }, 1000);

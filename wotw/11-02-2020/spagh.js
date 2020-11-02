@@ -1,3 +1,4 @@
+if (typeof localStorage.clickcount == 'undefined') localStorage.clickcount = 0
 function clickCounter() {
     if (localStorage.clickcount) {
       localStorage.clickcount = Number(localStorage.clickcount)+1;

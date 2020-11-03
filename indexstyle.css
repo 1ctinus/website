@@ -6,7 +6,6 @@
     font-family: helvetica;
     src: url(https://1ctinus.me/helvetica.woff);
   }
-  @media only screen and (min-width: 1578px) {
 .welc>*{display: inline-block;      animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -15,8 +14,6 @@
   animation-play-state: running;
   animation-delay: 0s;
   animation-name: bruh;}
-  }
-  .welc {position:relative;}
   p { font-size: 20px;  margin: 0px 60px 0px 60px;  color: white; text-decoration: none; text-shadow: rgb(0, 6, 10) 3px 3px;}
   body {background-color:#002133; font-family: helvetica;   overflow-x: hidden;}
       .pics { text-shadow: rgb(25, 0, 10) 6px 6px; color: rgb(255, 0, 106); }
@@ -39,7 +36,7 @@
   .gro {color: yellow }
   .ovy {color:blue}
 
-  .welc{   color:white; text-shadow: rgb(0, 6, 10) 8px 8px; text-align:center; font-size:400%; margin-top: -90px;  word-wrap: break-word;
+  .welc{   color:white; text-shadow: rgb(0, 6, 10) 8px 8px; text-align:center; font-size:400%; margin-top: -90px;  word-wrap: break-word; position:relative;
  }
 
   .para {font-size:30px; text-align:justify; }

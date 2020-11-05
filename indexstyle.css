@@ -41,3 +41,15 @@
 
   .para {font-size:30px; text-align:justify; }
   .preview{size: 98vw; margin-left: -50px;margin-right: -50px;}
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #002133; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #001019; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000; 
+  }

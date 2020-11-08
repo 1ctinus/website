@@ -35,3 +35,14 @@ body {
     text-decoration:none
   
   }
+  .left:hover, .right:hover{
+    background-color:white;
+}
+
+.left:hover a{
+    color:#156472;
+}
+
+.right:hover a{
+    color:#174688;
+}

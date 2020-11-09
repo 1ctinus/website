@@ -1,6 +1,8 @@
+
 document.body.addEventListener("keydown", function (event) {
-    if (event.keyCode ==32) {
+    if (event.keyCode ==32 && event.target == document.body) {        
         thething();
+        event.preventDefault();
     }
 });
 function thething(){

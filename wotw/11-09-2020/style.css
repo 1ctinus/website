@@ -1,5 +1,4 @@
 body {
-
     background: linear-gradient(270deg, #aaaa00, #009200);
     background-size: 400% 400%;
 
@@ -34,3 +33,8 @@ body {
 right: 0;
  text-align: center; cursor: pointer; z-index: 1; padding:1.5% 2% 1.5% 2%; }
 #c:hover {background-color: rgba(100,100,100,0.4);} 
+#peli{ position:absolute; display:block; width:100%; margin-left: -8px;margin-right: 0; top:1100px}
+#cap {position:absolute; top: 1000px; text-align: center;}
+::-webkit-scrollbar {
+    width: 0px;
+  }

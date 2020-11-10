@@ -40,8 +40,8 @@
   .welc{   color:white; text-shadow: rgb(0, 6, 10) 8px 8px; text-align:center; font-size:400%; margin-top: -90px;  word-wrap: break-word; position:relative;
  }
 
-  .para {font-size:30px; text-align:justify; }
-  .preview{size: 98vw; margin-left: -50px;margin-right: -50px;}
+  .para {font-size:30px; text-align:justify; margin-left: 200px; margin-right: 200px; color: rgb(255, 255, 232);}
+  .preview{display:block; width:100%; margin-left: auto;margin-right: auto;}
   ::-webkit-scrollbar {
     width: 10px;
   }

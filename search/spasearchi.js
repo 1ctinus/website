@@ -78,7 +78,7 @@ break;case "refresh":
 location.reload();
 break;case "fuck css":case "anti css":
 delyeet.remove();
-break;case "js":case "javascript":
+break;case "js":case "javascript":case "help":
 window.location.href = "search/spasearchi.js"
 break;case"css":case"style":case"styles":case"stylesheet":
 indow.location.href = "indexstyle.css"

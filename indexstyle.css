@@ -54,3 +54,28 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #000; 
   }
+  input[type=text] {
+    width: 80%;
+    font-size:20px;
+    padding: 16px 16px;
+    display: table;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+border-radius: 20px 20px;
+        font-size:35px;
+        background: rgba(0, 0, 0, 0); 
+    
+  }
+  ::placeholder {
+    color: #79a3b9;
+    font-size:35px;
+  }
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+input[type=text]:focus {
+  background-color: rgba(255,255,255,0.05);
+  z-index: -1;
+}

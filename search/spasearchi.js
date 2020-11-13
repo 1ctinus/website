@@ -1,6 +1,6 @@
 function search() {
-  var feel = ["happy","sad","lonely","tired","messy","lonely","miserable","weird","normal","scard","angry","calm","passive","bored","smart","dumb","caring","selfish","selfless"]
   var delyeet = document.getElementById("css");
+  var delyeet2 = document.getElementById("Dave");
   var xy = ["X","Y"]
   var xyp = parseInt(Math.random() * xy.length);
   var skew = 20*Math.random() - 10
@@ -8,6 +8,7 @@ function search() {
   var x = document.getElementById("Dave").value;
   var punctuationless = x.replace(/[.,\/#!?$'%\^&\*;:{}=\-_`~()]/g,"");
 var finalString = punctuationless.replace(/\s{2,}/g," ");
+  var res = finalString.split(" ");
   switch(finalString){
     // let's start out with the hrefs...
     case "haiku": case "haikus":
@@ -40,14 +41,15 @@ case "youtube":
   window.location.href = "https://www.youtube.com/channel/UCm4Ptfu96iahGA0SOHq84VA"
 //debugging 
 break;case "test" :case "debug":
-document.getElementById("output").innerHTML="test or debug"
+document.getElementById("output").innerHTML="test or debug";
 //now the fun stuff...
-
-case "white":
+break;case "white":
   document.body.style.backgroundColor = "#ffffff";
   document.getElementById("output").innerHTML="this webzone was not made for white you smoothbrain"
 break;case "groove": case "groovy": 
 window.location.href = "https://en.wikipedia.org/wiki/Pelican"
+break;case "self destruct":
+delyeet2.remove();
 break;case "dark": 
 document.body.style.backgroundColor = "#111";
 break;case "amoled": case "black":
@@ -68,6 +70,8 @@ break;case "grey":case "gray":
 document.body.style.backgroundColor = "#333333";
 break;case "stretch":
 document.body.style.setProperty("-webkit-transform", "scaleX(1.2)", null)
+break;case "squeeze":
+document.body.style.setProperty("-webkit-transform", "scaleX(0.5)", null)
 break;case "rotate": case "askew":
   document.body.style.setProperty("-webkit-transform", "rotate("+ skew +"deg)", null)
   break;case "skew":
@@ -81,7 +85,7 @@ delyeet.remove();
 break;case "js":case "javascript":case "help":
 window.location.href = "search/spasearchi.js"
 break;case"css":case"style":case"styles":case"stylesheet":
-indow.location.href = "indexstyle.css"
+window.location.href = "indexstyle.css"
 break;case"flip a coin":
 var coin = Math.random();
 if (coin > 0.5){
@@ -89,6 +93,11 @@ if (coin > 0.5){
 }else(    document.getElementById("output").innerHTML="tails")
 break;case"egg":case"eggs":
 window.location.href = "search/egg.html"
+break;case "delete":
+while (document.firstChild) {
+  document.removeChild(document.firstChild);
+}
+
 //q&a
 break;case"are you bill wurtz":case"wurtz soon":
 window.location.href = "https://www.youtube.com/watch?v=qWwb8S02f_c"
@@ -98,6 +107,8 @@ break;case"what":
 document.getElementById("output").innerHTML="ask some questions, search for eggs, and have some shortcuts too"
 break;case"you suck":
 document.getElementById("output").innerHTML=":("
+break;case"ping":
+document.getElementById("output").innerHTML="pong"
 break;case"what is your gender":case"what is your sex":case"are you male or female":
 document.getElementById("output").innerHTML="male"
 break;case"who are you":case"who":
@@ -121,8 +132,26 @@ document.getElementById("output").innerHTML="a dude just trying to get by"
 break;case"how are you doing":case"how you doing":case"how are you":
 document.getElementById("output").innerHTML="maybe alright, maybe not. but most of the times, ok."
   }
-  if (finalString.startsWith('are you')){ document.getElementById("output").innerHTML="oh yell yeah"};}
-  
+  if (finalString.startsWith('are you')){ document.getElementById("output").innerHTML="oh yell yeah"}
+ if (finalString.startsWith('color')){
+    document.getElementById("output").innerHTML = "background color changed to " + res[1];
+      document.body.style.backgroundColor = "#" + res[1];
+  }
+  if (finalString.startsWith('fontcolor') || finalString.startsWith('textcolor')){
+    var all = document.getElementsByTagName("*");
+    document.getElementById("output").innerHTML = "font/text color changed to " + res[1];
+    for (var i=0, max=all.length; i < max; i++) {
+     all[i].style.color = "#" + res[1];
+    }
+  }
+  if (finalString.startsWith('replace')){
+    document.getElementById("para").innerHTML = res[1];
+    }
+    if (finalString.startsWith('title')){document.getElementById("svga").innerHTML = res[1];document.getElementById("svgb").innerHTML = res[1];document.getElementById("svgc").innerHTML = res[1];
+      }
+  ;
+
+}
 document.body.addEventListener("keydown", function (event) {
     if (event.keyCode ==13 ) {        
         search();

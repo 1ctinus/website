@@ -7,10 +7,13 @@ font-family: helvetica;
 src: url(https://1ctinus.me/helvetica.woff);
 }
 .href {
- text-align: justify; text-justify: inter-word;
+ text-align: justify; text-justify: inter-word;  text-decoration: none;
 }
 .welc>*{display: inline-block;
 animation:bruh 2s ease-in-out 0s infinite alternate none running;
+}
+a, u {
+  text-decoration: none;
 }
 p { margin: 0px 60px 0px 60px;color:rgb(252, 252, 236); text-decoration: none; text-shadow: rgb(0, 6, 10) 3px 3px;}
 body {background-color:#002133; font-family: helvetica; overflow-x: hidden;}

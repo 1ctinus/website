@@ -42,7 +42,7 @@ user-select: none;
 #but {
 top: 50%;
 left: 50%;
-transform: translate(0%, 100%);
+transform: translate(0%, 70%);
 text-align: center;
 } 
 #rush {

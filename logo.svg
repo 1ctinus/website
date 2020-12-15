@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body >
+
+<svg  class="logo" height="300" width="1250" style="background-color:#002133">
+  <text style="font-size:195px;">
+      <tspan x="135" y="140" style="fill:blue;mix-blend-mode: lighten">1ctinus.me</tspan>
+    <tspan x="125" y="150" style="fill:#00ff00;mix-blend-mode: lighten">1ctinus.me</tspan>
+    <tspan x="115" y="160" style="fill:red;mix-blend-mode: lighten">1ctinus.me</tspan>
+  </text>
+</svg>
+ 
+</body>
+</html>

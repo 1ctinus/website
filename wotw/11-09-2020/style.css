@@ -8,7 +8,7 @@ body {
 }
 @font-face {
     font-family: helvetica;
-    src: url(https://1ctinus.me/helvetica.woff);}
+    src: '/helvetica.woff';}
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}

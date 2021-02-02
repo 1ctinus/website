@@ -4,7 +4,7 @@
 }
 @font-face {
 font-family: helvetica;
-src: ./helvetica.woff;
+src: '/helvetica.woff';
 }
 .logo {margin:auto; text-align: center; width: 60%}
 #svga { position: absolute; text-align: center;left:1%;right:0%;margin-top:-0.5%; }

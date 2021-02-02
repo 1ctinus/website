@@ -4,12 +4,17 @@
 }
 @font-face {
 font-family: helvetica;
-src: url(https://1ctinus.me/helvetica.woff);
+src: ./helvetica.woff;
 }
+.logo {margin:auto; text-align: center; width: 60%}
+#svga { position: absolute; text-align: center;left:1%;right:0%;margin-top:-0.5%; }
+#svgb  {position: absolute; text-align: center;left:0%;right:0%; vertical-align:top;}
+#svgc { position: absolute; text-align: center;left:-1%;right:0%;vertical-align:top;margin-top: 0.5%}
+
 .href {
  text-align: justify; text-justify: inter-word;  text-decoration: none;
 }
-.welc>*{display: inline-block;
+.welc>*{display: inline-block; padding-top: 11%;
 animation:bruh 2s ease-in-out 0s infinite alternate none running;
 }
 a, u {

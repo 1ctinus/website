@@ -20,8 +20,8 @@ animation:bruh 2s ease-in-out 0s infinite alternate none running;
 a, u {
   text-decoration: none;
 }
-p { margin: 0px 60px 0px 60px;color:rgb(252, 252, 236); text-decoration: none; text-shadow: rgb(0, 6, 10) 3px 3px;}
-body {background-color:#002133; font-family: helvetica; overflow-x: hidden;}
+p { margin: 0px 60px 0px 60px;color:#c2c6cc; text-decoration: none; text-shadow: rgb(0, 6, 10) 3px 3px;}
+body {background-color:#081e33; font-family: helvetica; overflow-x: hidden;}
 #pics{text-shadow:rgb(25, 0, 10) 6px 6px; color: rgb(255, 0, 106); }
 #bloc{text-shadow:rgb(18, 25, 3) 6px 6px; color: rgb(125, 173, 21); }
 #self{text-shadow:rgb(3, 7, 7) 6px 6px; color: rgb(112, 255, 245); }
@@ -39,9 +39,7 @@ margin:auto auto 90px auto;
 }
 .we{color:#3474ff; text-shadow: #0c0909 6px 6px;}
 .si{color:#29f1ff; text-shadow: #0c070c 6px 6px;}
-.gro {color: yellow }
-.ovy {color:blue}
-.welc{ color:white; text-shadow: rgb(0, 6, 10) 8px 8px; text-align:center; font-size:400%; margin-top: -90px;word-wrap: break-word; position:relative;
+.welc{ color:#c2c6cc; text-shadow: rgb(0, 6, 10) 8px 8px; text-align:center; font-size:400%; margin-top: -90px;word-wrap: break-word; position:relative;
  }
 .para {font-size:30px;
 text-align:justify; 

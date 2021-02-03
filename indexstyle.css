@@ -6,10 +6,10 @@
 font-family: helvetica;
 src: '/helvetica.woff';
 }
-.logo {margin:auto; text-align: center; width: 60%}
-#svga { position: absolute; text-align: center;left:1%;right:0%;margin-top:-0.5%; }
-#svgb  {position: absolute; text-align: center;left:0%;right:0%; vertical-align:top;}
-#svgc { position: absolute; text-align: center;left:-1%;right:0%;vertical-align:top;margin-top: 0.5%}
+.logo {margin:auto; text-align: center; width: 60; font-size:1250%;}
+#svga { color: #00f; mix-blend-mode: lighten; position: absolute; text-align: center;left:1%;right:0%;margin-top:-1%; }
+#svgb  { color: #0f0;mix-blend-mode: lighten;position: absolute; text-align: center;left:0%;right:0%; vertical-align:top; margin-top:-0.5%}
+#svgc {color:#f00; mix-blend-mode: lighten; position: absolute; text-align: center;left:-1%;right:0%;vertical-align:top;margin-top: 0%}
 
 .href {
  text-align: justify; text-justify: inter-word;  text-decoration: none;

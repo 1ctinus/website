@@ -12,7 +12,7 @@ src: '/helvetica.woff';
 #svgc {color:#f00; mix-blend-mode: lighten; position: absolute; text-align: center;left:-1%;right:0%;vertical-align:top;margin-top: 0%}
 
 .href {
- text-align: justify; text-justify: inter-word;  text-decoration: none;
+  text-align: justify; text-justify: inter-word;  text-decoration: none;
 }
 .welc>*{display: inline-block; padding-top: 11%;
 animation:bruh 2s ease-in-out 0s infinite alternate none running;

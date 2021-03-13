@@ -10,12 +10,15 @@
     }
 
     body {
-      background-color: #1B0089;
+      background-color: #000000;
       font-family: helvetica;
     }
 
     h2 {
+      color: #fff;
+      text-shadow: #0c0909 6px 6px;
       font-size: 90px;
+      margin: 0 0 -20px 0;
       margin-bottom: -20px;
       color:white;
       text-shadow: #0c0909 6px 6px;
@@ -58,6 +61,11 @@
       color: white;
       font-size: 25px;
     }
+    
+    .seasonbg {
+      margin:0;
+      padding:5px;
+    }
   </style>
 </head>
 
@@ -65,7 +73,19 @@
   <h2><span class="he">Website </span><span class="ha">Of </span><span class="he">The </span><span
       class="ha">Week</span></h2>
   <p id="sched">Season One has concluded.</p>
-  <h2>SEASON ONE</h2>
+  <!--FOR OTHER SEASONS, PLEASE COPY CODE.
+      <div class="seasonbg" style="background-color:
+#005e89;">
+          <h2>SEASON <span style="color:cyan">THREE</span></h2>
+          <p>INSERT STUFF HERE</p>
+      </div>
+      <div class="seasonbg" style="background-color:#003089;">
+          <h2>SEASON <span style="color:lime">TWO</span></h2>
+          <p>INSERT STUFF HERE</p>
+      </div>
+  -->
+  <div class="seasonbg" style="background-color:#1B0089;">
+  <h2>SEASON <span style="color:red">ONE</span></h2>
   <table>
     <tr>
       <td>10-19-2020&nbsp;</td>
@@ -93,6 +113,7 @@
       <td><a href="12-07-2020/">Monday Lazy Thing</a></td>
     </tr>
   </table>
+    </div>
 </body>
 
 </html>
